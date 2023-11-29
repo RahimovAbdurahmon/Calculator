@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #223244;
+}
+.img{
+    width: 200px;
+    margin-top: 180px;
+    margin-left: 580px;
+}
+.img:hover{
+    filter: saturate(50%);
+    cursor: pointer;
+}
+.img:active{
+    filter: saturate(0%);
+}
+.dialog{
+    background-color: transparent;
+    padding: 30px;
+    border: 4px solid gray;
+    width: 470px;
+    margin: 30px;
+    margin-left: 400px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.title{
+    width: 150px;
+}
+.closeDialog{
+    width: 30px;
+}
+.display{
+    width: 406px;
+    padding: 20px 20px 20px 20px;
+    text-align: end;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 40px;
+    color: white;
+}
+.inpPerResult{
+    width: 446px;
+    padding:  20px 10px 10px 10px;
+    text-align: end;
+    font-size: 25px;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.display::placeholder{
+    font-size: 40px;
+    color: white;
+}
+button{
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 3px;
+    width: 90px;
+    border-radius: 10px;
+    background-color: #1d2b3a;
+    border: none;
+}
+button:hover{
+    background-color: rgb(83, 83, 97);
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(29, 29, 66);
+}
+.divMain{
+    background-color: rgba(54, 61, 83, 0.979);
+    padding: 20px 30px;
+    border-top: 6px solid violet;
+}
+.btnDelete{
+    width: 25px;
+}
+.btnDelete:hover{
+    cursor: pointer;
+}
+.btnDelete:active{
+    filter: saturate(0%);
+    cursor: pointer;
+}
+.closeDialog:hover{
+    cursor: pointer;
+}
+.closeDialog:active{
+    filter: saturate(10%);
+    cursor: pointer;
+}
+#btnGray{
+    background-color: rgb(109, 107, 107);
+}
+#btnGray:hover{
+    background-color: #424c57;
+}
+#btnGray:active{
+    background-color: #322c53;
+}
+#btnBlue{
+    background-color: rgba(26, 27, 27, 0.712);
+}
+#btnBlue:hover{
+    background-color: #424c57;
+}
+#btnBlue:active{
+    background-color: rgb(29, 29, 66);
+}
+.btnResult{
+    background-image: linear-gradient(to right , rgb(92, 50, 92) , red);
+}
+.btnResult:hover{
+    background-image: linear-gradient(to right , rgb(90, 50, 90) , rgb(253, 39, 39));
+}
+.btnResult:active{
+    background-image: linear-gradient(violet , red);
+}
+
+.time{
+    background-color: #1d2b3a;
+    padding: 3px 20px;
+    color: white;
+    border-radius: 20px;
+}

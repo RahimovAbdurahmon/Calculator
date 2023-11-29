@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./Frame 9.png" class="img" alt="">
+
+    <dialog class="dialog">
+        <div class="header">
+            <img src="./Frame 9 (1).png" class="title" alt="">
+            <img src="./Frame 514255.png" class="closeDialog" alt="">
+        </div>
+        <input type="text" class="inpPerResult" disabled>
+        <input type="text" placeholder="0" class="display" id="inpResult" disabled>
+        <div class="divMain">
+            <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 20px;">
+                <h3 class="time">Time</h3>
+                <img src="./delete.png" class="btnDelete" alt="">
+            </div>
+            <div style="display: flex;justify-content: space-between;align-items: center;margin: 10px;">
+                <button class="clear" id="btnGray">C</button>
+                <button class="scope" id="btnGray">()</button>
+                <button class="operatorMode" id="btnGray">%</button>
+                <button class="operatorTaqsim" id="btnBlue">/</button>
+            </div>
+            <div style="display: flex;justify-content: space-between;align-items: center;margin: 10px;">
+                <button class="digit7">7</button>
+                <button class="digit8">8</button>
+                <button class="digit9">9</button>
+                <button class="operatorZarb" id="btnBlue">*</button>
+            </div>
+            <div style="display: flex;justify-content: space-between;align-items: center;margin: 10px;">
+                <button class="digit4">4</button>
+                <button class="digit5">5</button>
+                <button class="digit6">6</button>
+                <button class="operatorMinus" id="btnBlue">-</button>
+            </div>
+            <dvi style="display: flex;justify-content: space-between;align-items: center;margin: 10px;">
+                <button class="digit1">1</button>
+                <button class="digit2">2</button>
+                <button class="digit3">3</button>
+                <button class="operatorPilus" id="btnBlue">+</button>
+            </dvi>
+            <div style="display: flex;justify-content: space-between;align-items: center;margin: 10px;">
+                <button class="btnChange">+/-</button>
+                <button class="digit0">0</button>
+                <button class="digittoch">.</button>
+                <button class="btnResult">=</button>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="./msin.js"></script>
+</body>
+</html>
